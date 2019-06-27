@@ -1,0 +1,15 @@
+- hosts: devserver
+  user: root
+  tasks:
+    - name: ping
+      ping:
+    - name: install_git
+      become: true
+      yum:
+       name:
+        - git
+        - ntp
+        - vim
+        - nginx
+       state: latest
+      register: result
