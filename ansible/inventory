@@ -1,3 +1,9 @@
 [devserver]
 t2
+[devserver2]
+88hk2hk
+[letsencrypt]
+t2  ansible_user=root letsencrypt_email=clover.ec.2010@gmail.com domain_name=t2.vfnet.work 
+[letsencrypt2]
+88hk2hk ansible_user=root letsencrypt_email=clover.ec.2010@gmail.com domain_name=h2.vfnet.work ansible_ssh_private_key_file=/Users/eleven/Downloads/kagoya.key
 
