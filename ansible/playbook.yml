@@ -1,7 +1,5 @@
 - hosts: devserver
   user: root
-  pre_tasks:
-    - raw: yum install -y python-simplejson
   tasks:
     - name: Add epel-release repo
       yum:
